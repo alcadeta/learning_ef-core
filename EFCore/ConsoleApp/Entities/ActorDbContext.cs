@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ConsoleApp.Entities
 {
-    public class SomeDB : DbContext
+    public class ActorDbContext : DbContext
     {
         public DbSet<Actor> Actors { get; set; }
 

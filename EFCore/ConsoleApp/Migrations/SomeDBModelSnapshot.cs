@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace ConsoleApp.Migrations
 {
-    [DbContext(typeof(SomeDB))]
+    [DbContext(typeof(ActorDbContext))]
     partial class SomeDBModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

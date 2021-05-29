@@ -8,7 +8,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace ConsoleApp.Migrations
 {
-    [DbContext(typeof(SomeDB))]
+    [DbContext(typeof(ActorDbContext))]
     [Migration("20210529165230_InitialMigrations")]
     partial class InitialMigrations
     {
